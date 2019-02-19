@@ -1,0 +1,271 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 50px 0 0 0;
+  overflow-x: hidden;
+  background: 
+}
+
+
+/*navbar*/
+
+.navbar {
+  background-color: #cf2950;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #F69DB2;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+.s-logo {
+  color: #F69DB2;
+}
+
+.s-logo:hover {
+  color: white;
+}
+
+
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+  color: #E24C6F;
+}
+
+.carousel-control {
+  background-repeat: no-repeat;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  filter: none;
+}
+
+
+/*hr style*/
+
+.divider-sect {
+  margin: 1px 0;
+}
+
+/*feat section*/
+
+.new-arr {
+  margin-top: 1px;
+  margin-bottom: 0px;
+  color: #A10A2D;
+  opacity: .6;
+}
+.bolt{
+  font-size: 55px;
+}
+.tees {
+  margin-top: 40px;
+}
+
+.feat-btn {
+  border: 0;
+  background-color: #F0F3C7;
+}
+
+.feat-title {
+  color: #CF2950;
+  font-size: 50px;
+}
+
+.ad-img-left {
+  margin-left: 20px;
+}
+
+.ad-img-left {
+  margin-right: 40px;
+}
+
+.ad-title {
+  font-size: 50px;
+}
+
+
+/*footer*/
+
+.footer {
+  margin-top: 80px;
+  padding-bottom: 40px;
+  background-color: #E24C6F;
+}
+
+.s-logo-footer {
+  color: white;
+}
+
+.icon {
+  padding-top: 15px;
+  margin-left: 0;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: #F69DB2;
+  font-size: 18px;
+}
+
+.icon-link:hover {
+  color: white;
+}
+
+.bottom-content {
+  list-style: none;
+  padding: 0;
+}
+
+.bottom-links {
+  text-decoration: none;
+  color: #F69DB2;
+}
+
+.bottom-links:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-text {
+  color: #F69DB2;
+}
+
+.foot-divider {
+  border-top: 1px solid #F69DB2;
+}
+
+.foot-sect-title {
+  color: #F69DB2;
+  margin-top: 6px;
+}
+
+.bottom-text {
+  color: #F69DB2;
+  padding-top: 15px;
+}
+
+.foot-main {
+  padding: 50px 0;
+}
+
+.foot-phone {
+  color: #F69DB2;
+  font-size: 18px;
+}
+
+.foot-div {
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-footer {
+  background-color: #CF2950;
+}
+
+/*continues into mobile view*/
+
+.jumbotron {
+  background-color: blue;
+}
+
+.mobile-header {
+  color: #A10A2D;
+  background: #edfcf5;
+  background: -moz-linear-gradient(top, #fcedf1 0%, #fcedf1 1%, #edfcf5 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #fcedf1), color-stop(1%, #fcedf1), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #fcedf1 0%, #fcedf1 1%, #ffffff 100%);
+  background: -o-linear-gradient(top, #fcedf1 0%, #fcedf1 1%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #fcedf1 0%, #fcedf1 1%, #ffffff 100%);
+  background: linear-gradient(to bottom, #fcedf1 0%, #fcedf1 1%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcedf1', endColorstr='#ffffff', GradientType=0);
+}
+
+@media (max-width:1200px) {
+  .feat {
+    margin: 50px 0px;
+  }
+  .ad-img-right {
+    margin-left: 20px;
+  }
+  .ad-img-left {
+    margin-right: 20px;
+  }
+  .ad-title {
+    font-size: 35px;
+  }
+  .divider-sect {
+    margin: 50px 0;
+  }
+}
+
+@media (max-width:992px) {
+  .ad-img {
+    max-width: 50%;
+  }
+  .ad-img-right {
+    margin-left: 10px;
+  }
+  .ad-img-left {
+    margin-right: 10px;
+  }
+  .ad-title {
+    font-size: 30px;
+  }
+  .divider-sect {
+    margin: 40px 0;
+  }
+  .carousel {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+  }
+  .mobile-header-text {
+    display: inline-block;
+    margin: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .container {
+    margin: 0 15px;
+  }
+  .divider-sect {
+    margin: 40px 0;
+  }
+  .ad-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width:668px) {
+  .divider-sect {
+    margin: 30px 0;
+  }
+}
+
+@media (max-width:375px) {
+  .divider-sect {
+    margin: 40px 0;
+  }
+  .jumbotron{
+    margin-bottom: -30px;
+  }
+  .ad-img {
+    max-width: 100%;
+  }
+  .ad-img-right {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .ad-img-left {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  p.mobile-sub-text {
+    font-size: 18px;
+  }
+}
